@@ -96,7 +96,7 @@
         </ray>
 
         <plugin name="gazebo_ros_${name}_controller" filename="libgazebo_ros_gpu_laser.so">
-        <!-- plugin name="gazebo_ros_${name}_controller" filename="libgazebo_ros_laser.so" -->
+        <!--plugin name="gazebo_ros_${name}_controller" filename="libgazebo_ros_laser.so"-->
           <gaussianNoise>0.01</gaussianNoise>
           <alwaysOn>true</alwaysOn>
           <updateRate>${update_rate}</updateRate>
